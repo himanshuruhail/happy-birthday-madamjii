@@ -1,0 +1,5 @@
+function showSurprise() {
+  document.getElementById('surprise').classList.remove('hidden');
+  const music = document.getElementById('birthdayMusic');
+  music.play();
+}
