@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Madam jii</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Birthday Madam jii</h1>
+    <p class="message">May your day be as lovely and special as you are!</p>
+    <button onclick="showSurprise()">Click for a Surprise</button>
+    <div id="surprise" class="hidden">
+      <img src="https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif" alt="Surprise" />
+      <p>You are amazing! Have the best birthday ever!</p>
+    </div>
+    <audio id="birthdayMusic" src="romantic_birthday.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
